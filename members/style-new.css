@@ -1,0 +1,624 @@
+
+body {
+  background: ;
+  font: 14px 'Roboto',Arial,sans-serif;
+  color: #999999;
+  }
+
+img {
+  max-width: 100%;
+  }
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  padding: 0px;
+  }
+
+ul {
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  }
+
+
+/*-------------header nav-----------*/
+
+nav.hed_nav {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  background: #000000;
+  min-height: 65px;
+  }
+
+.hed_inner {
+  float: left;
+  margin: 0px;
+  padding: 10px 2%;
+  width: 100%;
+  }
+
+.header_avtar img {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+
+  }
+
+.logo {
+  margin:  1% 0 0 0;
+  padding: 0px;
+  float: left;
+  width: 20%;
+  }
+
+.utility {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 80%;
+  }
+
+.utility ul {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.utility ul li {
+  float: right;
+  line-height: 43px;
+  list-style: outside none none;
+  margin: 0 1.9% 0 0;
+  padding: 0;
+  }
+
+.utility ul li:first-child {
+  margin-right: 0px;
+  }
+
+.utility ul li .dropdown button {
+  background: none;
+  border: none;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu {
+   top: 50px;
+   left: -100px;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu2 {
+  width: 300px;
+  left: -160px;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li {
+  width: 100%;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con {
+  margin: 0px;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con span {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con span h4 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 10px;
+  line-height: 25px;
+  text-transform: capitalize;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con span p {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 10px;
+  line-height: 25px;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con span b {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 10px;
+  line-height: 25px;
+  }
+
+.utility ul li .dropdown ul.dropdown-menu li .dop_con button {
+  background: #575757 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  float: left;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 25px 0px 5px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 100%;
+  }
+
+
+/*search bar*/
+
+.search_bar {
+  margin: 2px 0 0 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.search_bar span {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;  
+  }
+
+.search_bar span input {
+  background: #2e2e2e;
+  margin: 0px;
+  padding: 10px 0 10px 8px ;
+  float: left;
+  width: 92%;
+  border: medium none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  height: auto;  
+  vertical-align: top;
+  }
+
+.search_bar span button {  
+  margin: 0px;
+  padding: 8px 0px;
+  float: left;
+  width: 4%;
+  background: #2e2e2e;
+  border: medium none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  height: auto;  
+  vertical-align: top;
+  }
+
+.search_bar span button i {
+  color: #fff;
+  font-size: 23px; 
+  }
+
+
+/*----------------section contact-------------------*/
+
+section.contact {
+  margin: 0px;
+  padding: 45px 0;
+  float: left;
+  width: 100%;
+  background: #f5f5f5;
+  }
+
+.name {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  line-height: 26px
+  }
+
+.name h1 {
+  margin: 0px;
+  padding: 0 0 0 2%;
+  float: left;
+  width: 22%;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: capitalize;
+  }
+
+.name span {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 78%;
+  }
+
+.pro_bg {
+  margin: 15px 0;
+  padding: 21px 0px;
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  }
+
+.profile_picture {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  width: 100%;
+  }
+
+.profile_picture span {
+  float: right;
+  height: 198px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  width: 90%;
+  border: 2px solid #a2a2a2;
+  }
+
+.profile_picture span img {
+  float: right;
+  margin: 0;
+  max-height: 198px;
+  min-height: 198px;
+  min-width: 100%;
+  padding: 0;
+  }
+
+.profile_picture button {
+  margin: 0px;
+  padding: 6px 30px;
+  float: right;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f27921;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  }
+
+.profile_picture button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #964204;
+  border: none;
+  }
+
+.fill_pro {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.fill_pro h3 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  }
+
+.for_label {
+  margin: 30px 0 0 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.for_label h6 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #404040;
+  }
+
+.for_label h6 span{
+  margin: 0 0 0 7px;
+  padding: 0px;
+  color: #e90a0a;
+  }
+
+.for_label input {
+  margin: 10px 0 0 0;
+  padding: 8px 0px 8px 12px;
+  float: left;
+  width: 100%;
+  background: #ebebeb;
+  color: #919191;
+  border: 1px solid #b7b7b7;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 3px;
+  }
+
+  .for_label input[type=email]{     
+    text-decoration: none!important;   
+    
+  }
+
+  .error{
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 9px;
+    padding: 8px;
+}
+
+.error .close{
+  line-height: 10px!important;
+}
+
+
+.for_label > span {
+    float: left;
+    line-height: 10px;
+    width: 100%;
+}
+
+
+
+ select.my_drop {
+  margin: 10px 0 0 0;
+  padding: 8px 0px 8px 12px;
+  float: left;
+  width: 100%;
+  background: #ebebeb url(images/ico_drop.png) right 14px no-repeat;
+  color: #919191;
+  border: 1px solid #b7b7b7;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 3px;
+  text-align: left;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  }
+
+select.my_drop option {
+  background: #ebebeb;
+  color: #919191;
+  border-bottom: 1px solid #b7b7b7;  
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: left;
+  padding: 0 0 0 12px;
+  }
+
+.for_label .check_box {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.for_label .check_box span {
+  margin: 10px 0 0 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  line-height: 12px;
+  float: left;
+  }
+
+.for_label .check_box span input {
+  margin: 0 10px 0 0px;
+  padding: 0px;
+  float: left;
+  width: 10%;
+  }
+
+.for_label textarea {
+    background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: #919191;
+    float: left;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0 0;
+    padding: 8px 0 8px 12px;
+    text-transform: capitalize;
+    width: 100%;
+    min-height: 80px;
+    }
+
+  .tearms {
+    margin: 20px 0 80px 0;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    }
+
+  .tearms h4 {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    color: #919191;
+    }
+
+  .tearms h4 b {
+    color: #f27921;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    }
+
+  .tearms button {
+    margin: 35px 0 0 0;
+    padding: 20px 110px;
+    float: left;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background: #f27921;
+    border: none;
+    border-radius: 3px;
+    }
+
+  .tearms button:hover {
+    background: #f36e0d;
+    text-decoration: none;
+    }
+
+
+
+/*radio button*/
+
+.for_label .btn_radio {
+  margin: 10px 0 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+ul.todo-sqilloo {
+    float: left;
+    list-style: outside none none;
+    margin: 6px 0 0;
+    padding: 0;
+    width: 100%;
+}
+ul.todo-sqilloo li {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+}
+ul.todo-sqilloo li a.btn-submit {
+    background: rgba(0, 0, 0, 0) url("images/btn-submit.png") no-repeat scroll left top;
+    color: #045189;
+    font-size: 13px;
+    margin: 0;
+    padding: 4px 0 4px 25px;
+}
+input.css-checkbox[type="radio"] {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    left: -1000px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: -1000;
+}
+input.css-checkbox[type="radio"] + label.css-label {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #919191;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 18px;
+    padding-bottom: 3px;
+    padding-left: 27px;
+    vertical-align: middle;
+}
+input.css-checkbox[type="radio"]:checked + label.css-label {
+    background-position: 0 -28px;
+}
+label.css-label {
+    -moz-user-select: none;
+    background-image: url("images/radio1.png");
+}
+.navbar-toggle {
+    background: #758ead none repeat scroll 0 0;
+}
+.navbar-toggle .icon-bar {
+    background: #58708e none repeat scroll 0 0;
+}
+
+/*end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 240px) and (max-width: 767px) {
+  
+  }
+  }
+

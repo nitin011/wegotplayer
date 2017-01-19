@@ -1,0 +1,5 @@
+05-07-2015 12:22:46 - ERROR - 10.7 MB - mail> Could not instantiate mail function.
+13-10-2015 18:07:43 - ERROR - 45.5 MB - mail> SMTP connect() failed.
+13-10-2015 18:17:52 - ERROR - 45.5 MB - mail> SMTP connect() failed.
+01-02-2016 16:57:30 - ERROR - 50.5 MB - Blocked by transient newsletter_main_engine set 0 seconds ago
+05-05-2016 15:54:04 - ERROR - 33.5 MB - mail> SMTP Error: data not accepted.
